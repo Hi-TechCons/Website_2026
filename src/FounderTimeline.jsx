@@ -90,7 +90,7 @@ export default function FounderTimeline() {
                 ref={(el) => (refs.current[index] = el)}
                 className={`relative flex flex-col md:flex-row items-center ${
                 isLeft ? "md:justify-start" : "md:justify-end"
-                } -mb-12`}
+                } -mb-4`}
             >
                 <div
                 // className={`w-full md:w-1/2 px-6 transition-all duration-700 ${
@@ -133,4 +133,5 @@ export default function FounderTimeline() {
     </div>
     </section>
   );
+
 }
