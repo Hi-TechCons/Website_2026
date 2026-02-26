@@ -165,7 +165,7 @@ const App = () => {
               <button
                 key={page}
                 onClick={() => setCurrentPage(page)}
-                className={`transition-all duration-300 py-2 border-b-2 ${currentPage === page ? 'border-[#117072]' : 'border-transparent text-slate-500 hover:text-slate-900'}`}
+                className={`transition-all duration-300 h-10 px-4 inline-flex items-center justify-center border-2 rounded-md text-xs font-bold uppercase tracking-widest ${currentPage === page ? 'border-[#117072]' : 'border-transparent text-slate-500 hover:text-slate-900 hover:border-[#55f0f2]'}`}
                 style={{ color: currentPage === page ? brandColor : '' }}
               >
                 {page}
