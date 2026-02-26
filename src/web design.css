@@ -1,0 +1,123 @@
+/* Hi-Tech Construction Global Design System
+This file handles the high-level aesthetic and custom animations
+not covered by standard utility classes.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap'); /*changed*/
+
+:root {
+--brand-teal: #117072;
+--slate-900: #0f172a;
+--slate-800: #1e293b;
+--transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+font-family: 'Inter', sans-serif;
+scroll-behavior: smooth;
+-webkit-font-smoothing: antialiased;
+}
+
+/* --- High-Tech Typography --- */
+.font-black {
+font-weight: 900;
+letter-spacing: -0.02em;
+}
+
+.uppercase-tracking {
+text-transform: uppercase;
+letter-spacing: 0.2em;
+}
+
+/* --- Brand Component Styles --- */
+.brand-gradient-overlay {
+background: linear-gradient(90deg, var(--slate-900) 0%, rgba(15, 23, 42, 0.4) 50%, transparent 100%);
+}
+
+.service-card-hover {
+transition: var(--transition-smooth);
+}
+
+.service-card-hover:hover {
+transform: translateY(-5px);
+box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* --- Custom Animations --- */
+@keyframes pulse-soft {
+0%, 100% { opacity: 0.1; }
+50% { opacity: 0.2; }
+}
+
+.animate-pulse-slow {
+animation: pulse-soft 4s infinite ease-in-out;
+}
+
+.fade-in-up {
+animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+from {
+opacity: 0;
+transform: translateY(20px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+/* --- AI Chat Interface Enhancements --- */
+.chat-scroll-hide::-webkit-scrollbar {
+width: 4px;
+}
+
+.chat-scroll-hide::-webkit-scrollbar-track {
+background: #f1f5f9;
+}
+
+.chat-scroll-hide::-webkit-scrollbar-thumb {
+background: #cbd5e1;
+border-radius: 10px;
+}
+
+/* --- Button Interactions --- */
+.btn-primary-glow {
+position: relative;
+overflow: hidden;
+}
+
+.btn-primary-glow::after {
+content: '';
+position: absolute;
+top: -50%;
+left: -50%;
+width: 200%;
+height: 200%;
+background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%);
+opacity: 0;
+transition: opacity 0.3s ease;
+}
+
+.btn-primary-glow:hover::after {
+opacity: 1;
+}
+
+/* --- Section Dividers --- */
+.border-brand {
+border-color: var(--brand-teal);
+}
+
+/* --- Forms & Inputs --- */
+input:focus, textarea:focus {
+box-shadow: 0 0 0 2px rgba(17, 112, 114, 0.2);
+}
+
+/* --- Responsiveness Overrides --- */
+@media (max-width: 768px) {
+.text-huge {
+font-size: 3rem;
+line-height: 1;
+}
+}
