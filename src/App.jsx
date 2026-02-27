@@ -931,7 +931,7 @@ const App = () => {
           <div className="relative order-2 md:order-1">
             <div className="absolute -top-10 -left-10 w-24 md:w-40 h-24 md:h-40 bg-slate-50 -z-10 rounded-full"></div>
             <img 
-              src="/public/Building.jpg" 
+              src="/Building.jpg" 
               className="relative shadow-2xl grayscale hover:grayscale-0 transition-all duration-1000 rounded-sm w-full" 
               alt="Engineering Team" 
             />
