@@ -254,8 +254,8 @@ const App = () => {
               <span>Rajkot, Gujarat, India</span>
             </li>
             <li className="flex items-center space-x-3">
-              <Phone className="h-4 w-4 shrink-0" style={{ color: brandColor }} /> 
-              <span>1-800-HITECH</span>
+              <Mail className="h-4 w-4 shrink-0" style={{ color: brandColor }} /> 
+              <span>admin@hitechconstruction.in</span>
             </li>
           </ul>
         </div>
