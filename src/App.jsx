@@ -586,9 +586,9 @@ const App = () => {
     },
     {
       id: "sewage",
-      title: "Sewage System Project",
+      title: "Sewerage System Project",
       location: "Ujjain, MP",
-      Category: "Sewage System",
+      Category: "Sewerage System",
       description:
         "Execution of an underground sewage collection network including RCC NP3 pipeline installation, manhole construction, and precise gradient alignment for efficient wastewater flow. The system was integrated with the municipal drainage network and connected to the Sewage Treatment Plant (STP).Work was carried out in active urban zones with controlled excavation, dewatering management, and complete surface restoration, in compliance with municipal engineering standards and quality protocols.",
       images: ["/sewer.jpg", "Ujjain/UJN(STR)1.jpeg", "Ujjain/UJN(WRK).jpeg",  "Ujjain/UJN(WRK)2.jpeg", "Ujjain/UJN(WRK)3.jpeg", "Ujjain/UJN(WRK)5.jpeg", "Ujjain/UJN(WRK)6.jpeg", "Ujjain/UJN(CMP)1.jpeg", "Ujjain/UJN(WRK)1.jpeg", "Ujjain/UJN(WRK)7.jpeg", "Ujjain/UJN(WRK)8.jpeg",
