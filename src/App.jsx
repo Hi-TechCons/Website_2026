@@ -358,7 +358,7 @@ const App = () => {
         <div className="absolute inset-0">
           <img 
             // src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80" 
-            src = '/water pipe.jpg'
+            src = '/water pipe.webp'
             alt="Hi-Tech Site" 
             className="w-full h-full object-cover"
           />
@@ -582,7 +582,7 @@ const App = () => {
       Category: "Water Supply",
       description:
         "Executed underground water supply pipeline installation including trench excavation, DI/HDPE pipe laying, valve chamber construction, hydro testing, and commissioning across key service zones in Rajkot, Gujarat, ensuring improved water pressure and distribution efficiency.",
-      images: ["/Water.jpg", "Rajkot/RJJK Work.jpeg", "Rajkot/RJJK Work1.jpeg", "Rajkot/RJJK Work2.jpeg", "Rajkot/RJJK Work3.jpeg", "Rajkot/RJJK Work4.jpeg", "Rajkot/RJJK Work5.jpeg", "Rajkot/RJK(mid).jpeg", "Rajkot/RJK(mid)1.jpeg", "Rajkot/RJK(Comp).jpeg", "Rajkot/RJK(Comp)1.jpeg", "Rajkot/RJK(Comp)2.jpeg", "Rajkot/RJK(Comp)3.jpeg", "Rajkot/RJK(Comp)4.jpeg"]
+      images: ["/Water (1).webp", "Rajkot/RJJK Work.jpeg", "Rajkot/RJJK Work1.jpeg", "Rajkot/RJJK Work2.jpeg", "Rajkot/RJJK Work3.jpeg", "Rajkot/RJJK Work4.jpeg", "Rajkot/RJJK Work5.jpeg", "Rajkot/RJK(mid).jpeg", "Rajkot/RJK(mid)1.jpeg", "Rajkot/RJK(Comp).jpeg", "Rajkot/RJK(Comp)1.jpeg", "Rajkot/RJK(Comp)2.jpeg", "Rajkot/RJK(Comp)3.jpeg", "Rajkot/RJK(Comp)4.jpeg"]
     },
     {
       id: "sewage",
@@ -591,7 +591,7 @@ const App = () => {
       Category: "Sewerage System",
       description:
         "Execution of an underground sewage collection network including RCC NP3 pipeline installation, manhole construction, and precise gradient alignment for efficient wastewater flow. The system was integrated with the municipal drainage network and connected to the Sewage Treatment Plant (STP).Work was carried out in active urban zones with controlled excavation, dewatering management, and complete surface restoration, in compliance with municipal engineering standards and quality protocols.",
-      images: ["/sewer.jpg", "Ujjain/UJN(STR)1.jpeg", "Ujjain/UJN(WRK).jpeg",  "Ujjain/UJN(WRK)2.jpeg", "Ujjain/UJN(WRK)3.jpeg", "Ujjain/UJN(WRK)5.jpeg", "Ujjain/UJN(WRK)6.jpeg", "Ujjain/UJN(CMP)1.jpeg", "Ujjain/UJN(WRK)1.jpeg", "Ujjain/UJN(WRK)7.jpeg", "Ujjain/UJN(WRK)8.jpeg",
+      images: ["/sewer.webp", "Ujjain/UJN(STR)1.jpeg", "Ujjain/UJN(WRK).jpeg",  "Ujjain/UJN(WRK)2.jpeg", "Ujjain/UJN(WRK)3.jpeg", "Ujjain/UJN(WRK)5.jpeg", "Ujjain/UJN(WRK)6.jpeg", "Ujjain/UJN(CMP)1.jpeg", "Ujjain/UJN(WRK)1.jpeg", "Ujjain/UJN(WRK)7.jpeg", "Ujjain/UJN(WRK)8.jpeg",
                "Ujjain/UJN(CMP)2.jpeg", "Ujjain/UJN(CMP)3.jpeg"]
     }
   ];
@@ -932,7 +932,7 @@ const App = () => {
           <div className="relative order-2 md:order-1">
             <div className="absolute -top-10 -left-10 w-24 md:w-40 h-24 md:h-40 bg-slate-50 -z-10 rounded-full"></div>
             <img 
-              src="/Building.jpg" 
+              src="/Building.webp" 
               className="relative shadow-2xl grayscale hover:grayscale-0 transition-all duration-1000 rounded-sm w-full" 
               alt="Engineering Team" 
             />
