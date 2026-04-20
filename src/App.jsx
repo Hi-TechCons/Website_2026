@@ -43,6 +43,7 @@ import './web design.css';
 import logo from './assets/Logo (Light).png';
 import FounderTimeline from './FounderTimeline';
 import ClientSection from "./ClientSection";
+import AboutBook from "./AboutBook";
 
 const apiKey = ""; // Managed by environment
 
@@ -576,6 +577,12 @@ const App = () => {
         <section className="py-20 md:py-28 bg-white border-t border-slate-100">
           <div className="max-w-6xl mx-auto px-6">
             <ClientSection/>
+          </div>
+        </section>
+
+        <section>    
+        <div>
+             <AboutBook />
           </div>
         </section>
     </div>
