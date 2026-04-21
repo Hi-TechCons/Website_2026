@@ -125,7 +125,7 @@ export default function AboutBook() {
         </button>
 
         {/* BOOK */}
-        <div className="hidden md:block">
+        <div>
           <HTMLFlipBook
             width={580}
             height={700}
