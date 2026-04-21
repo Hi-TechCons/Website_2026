@@ -125,7 +125,7 @@ export default function AboutBook() {
         </button>
 
         {/* BOOK */}
-        <div>
+        <div className="hidden md:block">
           <HTMLFlipBook
             width={580}
             height={700}
@@ -147,13 +147,24 @@ export default function AboutBook() {
         </div>
 
         {/* MOBILE */}
-        <div className="md:hidden w-full px-4 space-y-6">
+        {/* <div className="md:hidden w-full px-4 space-y-6">
           {pages.map((img, index) => (
             <img
               key={index}
               src={img}
               alt={`Page ${index + 1}`}
               className="w-full rounded-xl shadow-lg"
+            />
+          ))}
+        </div> */}
+        {/* MOBILE */}
+        <div className="md:hidden flex overflow-x-auto gap-4 px-4 snap-x">
+          {pages.map((img, index) => (
+            <img
+              key={index}
+              src={img}
+              alt={`Page ${index + 1}`}
+              className="w-[80%] max-w-xs flex-shrink-0 rounded-xl shadow-lg snap-center"
             />
           ))}
         </div>
